@@ -2,6 +2,11 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
+import Container from './Container'
+
+import styles from './Navbar.module.css'
+import logo from '../imgs/costs_logo.png'
+
 const Navbar = () => {
   return (
     <nav>

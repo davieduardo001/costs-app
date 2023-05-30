@@ -1,10 +1,10 @@
 import React from 'react'
 
-import styles from './Container.modules.css'
+import styles from './Container.module.css'
 
 const Container = (props) => {
   return (
-    <div className={`container ${props.customClass}`}>
+    <div className={styles.container}>
         {props.children}
     </div>
   )
