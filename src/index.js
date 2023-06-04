@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Company from './pages/Company';
 import Contact from './pages/Contact';
 import NewProject from './pages/NewProject';
+import Projects from './pages/Projects';
 
 
 const router = createBrowserRouter([
@@ -35,10 +36,15 @@ const router = createBrowserRouter([
       },
 
       {
+        path: "/projects",
+        element: <Projects />
+      },
+
+      {
         path: "/newproject",
         element: <NewProject />
       },
-      
+
       // Nested routes = identificador unico para usuario
       // {
       //   path: "/contact/:id",

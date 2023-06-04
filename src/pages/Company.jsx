@@ -1,10 +1,11 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const Company = () => {
   return (
-    <div>
+    <Container>
       <h1>COMPANY</h1>
-    </div>
+    </Container>
   )
 }
 

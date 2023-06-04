@@ -1,12 +1,14 @@
 import React from 'react'
 import Container from '../components/Container'
 
-const NewProject = () => {
+const Projects = () => {
   return (
     <Container>
-      <h1>NEW PROJECT</h1>
+        <h1>
+          Projects
+        </h1>
     </Container>
   )
 }
 
-export default NewProject
+export default Projects

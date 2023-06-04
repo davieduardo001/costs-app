@@ -1,12 +1,13 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const Home = () => {
   return (
-    <div>
+    <Container customClass="min_height">
         <h1>
-          HOME
+          HOME teste
         </h1>
-    </div>
+    </Container>
   )
 }
 

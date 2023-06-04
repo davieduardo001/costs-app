@@ -1,0 +1,19 @@
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list li {
+    margin: 0 1em;
+}
+.list li:hover {
+    color: #ffbb33;
+}
