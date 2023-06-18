@@ -14,6 +14,8 @@ function App() {
         <Outlet/>
       </Container>
 
+      <p>teste</p>
+
       <Footer/>
     </div>
   );
